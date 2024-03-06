@@ -145,6 +145,13 @@ $(document).ready(function () {
         </div>")
         var projects = [
             {
+                title: "Pigmentastico",
+                description: "An Angular web app that allows users to build, save, view, and delete color palettes.",
+                uses: "Angular, MaterialUI, Firebase, Firestore",
+                github: "https://github.com/lmcguigan/palette-builder",
+                thumb: "assets/images/pigmentastico.png"
+            },
+            {
                 title: "Flabingo",
                 description: "A React Navitve application that allows users to create buzzword bingo games. Used as a demo project for a presentation on building mobile app flows with React Navigation 4.x.",
                 uses: "React Native, React Navigation 4",
