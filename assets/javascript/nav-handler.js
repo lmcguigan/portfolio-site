@@ -19,7 +19,7 @@ function setActiveNavLink (string) {
 function fillMainOnLoad(){
     $("#main-div").html(
         "<div class='col-10 col-md-8 textsplash'>\
-            <div class='box message-box' data-aos='fade-in' data-aos-duration='3000'>\
+            <div class='box message-box' data-aos='fade-in' data-aos-duration='2000'>\
                 <img class='flat-icon' src='assets/images/icons-01.png'>\
                 <h2>Let's make something<br><span id='typed'></span></h2>\
             </div>\
@@ -127,7 +127,7 @@ $(document).ready(function () {
     $("#portfolio-link").click(function(){
         $("#main-div").empty()
         $("#main-div").html(
-        "<div class = 'col-11 col-lg-8'>\
+        "<div class = 'col-11 col-lg-5'>\
             <div class='box' data-aos='fade-up' data-aos-duration='1000'>\
                 <div class='row justify-content-center'>\
                     <div class='col-12 col-sm-10 div-content'>\
