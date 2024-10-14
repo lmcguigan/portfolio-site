@@ -77,6 +77,10 @@ $(document).ready(function () {
                                     <h3>Tech-Related Talks</h3>\
                                     <hr class='section-divider'/>\
                                     <div class='speaking-item'>\
+                                        <p class='talk-title'>'That’s So Fetch!: Loading and Caching Data with RTK Query'</p>\
+                                        <p>Sept 10, 2024 - ReactJS Dallas</p>\
+                                    </div>\
+                                    <div class='speaking-item'>\
                                         <p class='talk-title'>'.toBe() or .not.toBe() - Unit Testing with Jest'</p>\
                                         <p>May 19, 2020 - Dallas Vue Meetup</p>\
                                     </div>\
@@ -144,6 +148,13 @@ $(document).ready(function () {
             <div class = 'card-deck' id='card-holder'></div>\
         </div>")
         var projects = [
+            {
+                title: "My Painter's Palette",
+                description: "A React / Next.js web app that allows users to build palettes with artworks as inspiration",
+                uses: "RTK Query, Redux, Redux-Toolkit, React, Next.js, ",
+                github: "https://github.com/lmcguigan/flemish-giant",
+                thumb: "assets/images/painters.jpeg"
+            },
             {
                 title: "Pigmentastico",
                 description: "An Angular web app that allows users to build, save, view, and delete color palettes.",
