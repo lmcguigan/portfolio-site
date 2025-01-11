@@ -159,7 +159,7 @@ $(document).ready(function () {
                 title: "Pigmentastico",
                 description: "An Angular web app that allows users to build, save, view, and delete color palettes.",
                 uses: "Angular, MaterialUI, Firebase, Firestore",
-                github: "https://github.com/lmcguigan/palette-builder",
+                github: "https://github.com/lmcguigan/palette-app",
                 thumb: "assets/images/pigmentastico.png"
             },
             {
