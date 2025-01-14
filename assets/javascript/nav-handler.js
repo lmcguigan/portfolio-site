@@ -149,9 +149,16 @@ $(document).ready(function () {
         </div>")
         var projects = [
             {
+                title: "Four in a Line",
+                description: "A mobile app that allows users to play a four-in-a-row game switching turns on a device, with customizable UI, and winner records.",
+                uses: "React Native, Expo, Redux, Redux-Persist",
+                github: "https://github.com/lmcguigan/in-a-line",
+                thumb: "assets/images/in-a-line.png"
+            },
+            {
                 title: "My Painter's Palette",
                 description: "A React / Next.js web app that allows users to build palettes with artworks as inspiration",
-                uses: "RTK Query, Redux, Redux-Toolkit, React, Next.js, ",
+                uses: "RTK Query, Redux, Redux-Toolkit, React, Next.js",
                 github: "https://github.com/lmcguigan/flemish-giant",
                 thumb: "assets/images/painters.jpeg"
             },
